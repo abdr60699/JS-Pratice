@@ -43,8 +43,36 @@ numberList.forEach(function(num)
 case "red" : 
 case "blue": 
 console.log("i like red");
-console.log("i hate blue");
+console.log("i hate blue")
+;
 break;
- default : console.log("choose the color")
+ default : console.log("choose the color")}
 
- }
+
+// object literal
+
+ var employeeDetails ={
+
+    firstName : "abdul",
+    lastName : "rahman",
+    mobile : 9812345690,
+
+    address : { 
+        street : "2nd street",
+        city  : "chennai",
+        state : "tamilNadu",
+
+
+    },
+}
+ console.log(employeeDetails.address.city);
+
+ var carList = new Object();
+function carList(company,model,milege)
+{
+this.company = company;
+this.milege = milege;
+this.model = model;
+}
+var myFirstCar = ("BMW","s-class","23")
+console.log(myFirstCar.company);
