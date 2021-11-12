@@ -27,11 +27,11 @@ numberList.forEach(function(num)
     console.log(num);
 }
 )
- var a = 2;
- var c= "2";
- var d =2;
+ var ajayAge = 2;
+ var KumarAge= 6;
+ var deepakAge =2;
 
- if (c === a){
+ if (deepakAge === KumarAge){
      console.log("True");
  }
  else{
