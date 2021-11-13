@@ -67,12 +67,27 @@ break;
 }
  console.log(employeeDetails.address.city);
 
+ //object constructor
+
  var carList = new Object();
-function carList(company,model,milege)
-{
-this.company = company;
-this.milege = milege;
-this.model = model;
-}
-var myFirstCar = ("BMW","s-class","23")
-console.log(myFirstCar.company);
+
+carList.name = "bmw";
+carList.type = "suv";
+carList.color = "red";
+
+
+carList.name = "audi";
+carList.type = "suv";
+carList.color = "blue";
+
+console.log(carList.color);
+
+// var List = new Object();
+// function List(company,model,milege)
+// {
+// this.company = company;
+// this.milege = milege;
+// this.model = model;
+// }
+// var car = new List ("BMW","s-class","23")
+// console.log(List.company);
