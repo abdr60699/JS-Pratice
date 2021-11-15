@@ -11,5 +11,13 @@ console.log(typeOrder);
 var carsList = "i love BMW."  +  "i love audi.";
 console.log(carsList); 
 
+const website = "w3schools";
+const bestWebsite = "best learning website is " + website ;
+console.log(bestWebsite);
 
-cdsvnskdmaddi;
+// concatenate 2 variable
+var firstName = "mohamed";
+let lastName = " ikram";
+console.log(firstName += lastName);
+
+//
